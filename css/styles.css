@@ -43,12 +43,16 @@
               top: 0;
               left: 0;
               z-index: 100;
-              background-color: black;
+              
+              background: linear-gradient(360deg, #42c9e4 , #170424 );
+              background-color:  #07081C;
+
               opacity: 0;
               visibility: hidden;
               pointer-events: none;
               transition: opacity 500ms linear, visibility 500ms linear;} 
 
+             
 .mobile-menu.is-open {opacity: 1;
                       visibility: visible;
                       pointer-events: auto;}         
@@ -56,7 +60,20 @@
 .mobile-menu_conteiner{position: relative;
                        padding-top: 80px;}    
 
+.mobile-items {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    
+    
+    }
 
-
+.mobile-link {text-decoration: none;
+    color: #FFFFFF;
+}    
 /* Hero */
 
