@@ -26,12 +26,15 @@
             padding-left: 20px;
             padding-right: 20px;
             display: flex;
-            height: 60px;
             justify-items: center;
             align-items: center;
             justify-content: space-between;}
 
 .mobile-menu-open_icon {stroke: #FFFFFF;}
+
+.mobile-close-win {background-color:transparent;}
+
+.mobile-cross {stroke:currentColor;}
 
 .mobile-menu-open {background-color:transparent;
                    border: none;
@@ -43,7 +46,10 @@
               top: 0;
               left: 0;
               z-index: 100;
-              
+              padding-left: 20px;
+              padding-right: 20px;
+              margin-left: auto;
+              margin-right: auto;
               background: linear-gradient(360deg, #42c9e4 , #170424 );
               background-color:  #07081C;
 
@@ -51,7 +57,10 @@
               visibility: hidden;
               pointer-events: none;
               transition: opacity 500ms linear, visibility 500ms linear;} 
+              
+.mob-head {margin-top: 34px;}
 
+.logo.mobile {margin-right: 109px;}
              
 .mobile-menu.is-open {opacity: 1;
                       visibility: visible;
@@ -64,16 +73,84 @@
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 39px;
+    line-height: 1.2;
     list-style: none;
     align-items: center;
     text-align: center;
-    
-    
-    }
+padding-left: 0;    
+padding-right: 0;}
+   
+    .mobile-item {margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 36px;}    
 
 .mobile-link {text-decoration: none;
-    color: #FFFFFF;
-}    
+              color: #FFFFFF;}   
+              
+.mobile-link:hover, .mobile-link:focus {color:  #B544FE;}              
+
+
 /* Hero */
 
+.conteiner.hero {display: block;
+                }  
+
+.hero {background-image: url(../images/iPhone\ X\ Flying\ Mockup\ Left\ View\ label.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    width: 395px;
+    height: 430px;
+padding-bottom: 14px;}
+.hero-head {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+        color: #FFFFFF;}
+
+        .hero-par {font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            
+            color: #FFFFFF;}
+
+ .hero-item {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+        color: #FFFFFF;
+        list-style: none;}    
+
+
+        /* Features */
+
+ .features{background-color: #fff;}       
+   .conteiner.features {display: block;}
+
+
+   /* Video */
+
+   .conteiner.video {display: block;}
+
+   .video-head {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;}
+
+ .video-par {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #FFFFFF;}  
+    
+    .video-soc {display: flex;}
