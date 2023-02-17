@@ -160,3 +160,9 @@ padding-bottom: 14px;}
 
     .team {display: block;}
     .conteiner.team {display: block;}
+    .our.team {background-color: #fff;}
+
+    /* customers */
+
+    .customers {background-color: #fff;
+    display: block;}
